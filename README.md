@@ -23,3 +23,22 @@ brew install etcd
 ```python
 pip install etcd3
 ```
+
+## Running the Project
+
+### Starting etcd Server
+
+You can go to your terminal and type this:
+
+```bash
+etcd
+```
+
+### Running Flask App
+
+Go to your project directory (the directory where app.py is stored) in terminal and type:
+
+```bash
+python app.py
+```
+
