@@ -62,3 +62,11 @@ Users can view a list of all keys stored in the etcd database using the "List Al
 ### Deleting All Entries: 
 
 The "Delete All Entries" functionality enables users to delete all key-value pairs stored in the etcd database. This feature is managed by the `delete_all()` function in `app.py`, located at line 51. Upon triggering this functionality, all key-value pairs in the etcd database are deleted.
+
+### Integration of Frontend and Backend: 
+
+The Flask framework is used to seamlessly integrate frontend HTML templates with backend Python code. The HTML templates, such as `index.html` and `list.html`, are rendered dynamically by Flask, allowing for the presentation of data retrieved from the etcd database and the handling of user interactions through form submissions. This integration is facilitated by defining routes in app.py that correspond to the various frontend actions, such as adding, retrieving, and deleting key-value pairs.
+
+### Usage of CSS Styling: 
+
+The HTML templates utilize Cascading Style Sheets (CSS) to enhance the visual presentation of the web application. CSS rules are applied to elements within the HTML templates to control aspects such as layout, colors, fonts, and animations. By embedding CSS styles directly within the HTML files or linking external CSS files, the appearance of the web pages can be customized to create a visually appealing and user-friendly interface. The CSS styling enhances the overall user experience by improving readability, organization, and aesthetic appeal of the web application.
