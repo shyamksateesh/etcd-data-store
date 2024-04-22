@@ -17,9 +17,9 @@ You can install etcd on macOS using Homebrew:
 
 ```bash
 brew install etcd
-
+```
 ### Install python-etcd3 package
 
 ```python
 pip install etcd3
-
+```
