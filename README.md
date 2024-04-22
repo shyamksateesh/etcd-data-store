@@ -70,3 +70,12 @@ The Flask framework is used to seamlessly integrate frontend HTML templates with
 ### Usage of CSS Styling: 
 
 The HTML templates utilize Cascading Style Sheets (CSS) to enhance the visual presentation of the web application. CSS rules are applied to elements within the HTML templates to control aspects such as layout, colors, fonts, and animations. By embedding CSS styles directly within the HTML files or linking external CSS files, the appearance of the web pages can be customized to create a visually appealing and user-friendly interface. The CSS styling enhances the overall user experience by improving readability, organization, and aesthetic appeal of the web application.
+
+### Contributors:
+
+Shyam Krishna Sateesh - PES1UG21CS935	
+Shriansh Mohanty - PES1UG21CS584	
+Siddhanth Sridhar - PES1UG21CS593	
+Siddharth Hegde - PES2UG21CS522	
+
+
