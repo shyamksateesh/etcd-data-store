@@ -73,9 +73,12 @@ The HTML templates utilize Cascading Style Sheets (CSS) to enhance the visual pr
 
 ### Contributors:
 
-Shyam Krishna Sateesh - PES1UG21CS935	
+Shyam Krishna Sateesh - PES1UG21CS935
+
 Shriansh Mohanty - PES1UG21CS584	
+
 Siddhanth Sridhar - PES1UG21CS593	
+
 Siddharth Hegde - PES2UG21CS522	
 
 
