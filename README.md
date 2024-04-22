@@ -36,7 +36,7 @@ etcd
 
 ### Running Flask App
 
-Go to your project directory (the directory where app.py is stored) in terminal and type:
+Go to your project directory (the directory where `app.py` is stored) in terminal and type:
 
 ```bash
 python app.py
