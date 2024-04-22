@@ -8,7 +8,7 @@ This project implements a key-value store using etcd as the backend storage and 
 - [Python](https://www.python.org/)
 - [pip](https://pypi.org/project/pip/)
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-- [python-etcd3] (https://python-etcd3.readthedocs.io/en/latest/readme.html)
+- [python-etcd3](https://python-etcd3.readthedocs.io/en/latest/readme.html)
 
 ## Installation
 
