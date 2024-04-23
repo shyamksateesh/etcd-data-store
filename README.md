@@ -44,25 +44,23 @@ python app.py
 ```
 ## Functionalities Implemented
 
+
 ### Key-Value Pair Addition: 
 
-You can add key-value pairs to the etcd database using the "Put Key-Value Pair" functionality. This feature is handled by the `put()` function in `app.py`, located at line 16. Users can input a key and its corresponding value, and upon submission, the key-value pair is stored in the etcd database.
+You can add key-value pairs to the etcd database using the "Put Key-Value Pair" functionality. This feature is handled by the `put()` function in `app.py`, located at line 16. Users can input a key and its corresponding value, and upon submission, the key-value pair is stored in the etcd database. This functionality utilizes the `put()` API provided by the etcd package to insert the key-value pair into the database.
 
 ### Retrieving Values by Key: 
 
-Users can retrieve the value associated with a specific key from the etcd database using the "Get Value by Key" functionality. This feature is managed by the `get()` function in `app.py`, found at line 22. Users input a key, and upon submission, the corresponding value is fetched from the etcd database and displayed to the user.
+Users can retrieve the value associated with a specific key from the etcd database using the "Get Value by Key" functionality. This feature is managed by the `get()` function in `app.py`, found at line 22. Users input a key, and upon submission, the corresponding value is fetched from the etcd database and displayed to the user. This functionality utilizes the `get()` API provided by the etcd package to retrieve the value associated with the specified key.
 
 ### Deleting Keys: 
 
-The "Delete Key" functionality allows users to remove a key and its associated value from the etcd database. This feature is controlled by the `delete()` function in `app.py`, located at line 29. Users input a key, and upon submission, the key-value pair is deleted from the etcd database if it exists.
+The "Delete Key" functionality allows users to remove a key and its associated value from the etcd database. This feature is controlled by the `delete()` function in `app.py`, located at line 29. Users input a key, and upon submission, the key-value pair is deleted from the etcd database if it exists. This functionality utilizes the `delete()` API provided by the etcd package to delete the specified key-value pair.
 
 ### Listing All Keys: 
 
-Users can view a list of all keys stored in the etcd database using the "List All Keys" functionality. This feature is handled by the `list_keys()` function in `app.py`, present at line 39. Upon accessing this functionality, all keys present in the etcd database are fetched and displayed to the user.
+Users can view a list of all keys stored in the etcd database using the "List All Keys" functionality. This feature is handled by the `list_keys()` function in `app.py`, present at line 39. Upon accessing this functionality, all keys present in the etcd database are fetched and displayed to the user. This functionality utilizes the `get_all()` API provided by the etcd package to retrieve all keys stored in the database.
 
-### Deleting All Entries: 
-
-The "Delete All Entries" functionality enables users to delete all key-value pairs stored in the etcd database. This feature is managed by the `delete_all()` function in `app.py`, located at line 51. Upon triggering this functionality, all key-value pairs in the etcd database are deleted.
 
 ### Integration of Frontend and Backend: 
 
